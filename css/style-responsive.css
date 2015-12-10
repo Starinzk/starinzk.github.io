@@ -1,3 +1,18 @@
+
+
+@media all and (max-width: 880px) and (min-width: 330px){
+
+.skills{
+	display: block;
+	width: 70%;
+}
+
+}
+
+
+
+
+
 @media all and (max-width: 1024px) and (min-width: 330px){
 
 body{
@@ -28,6 +43,7 @@ body{
   background-color: #297CFF;
   list-style-type: none;
 }
+
 
 
 

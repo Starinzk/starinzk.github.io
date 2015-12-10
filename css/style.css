@@ -400,6 +400,13 @@ position: relative;
   background-size: cover;
 
 }
+
+.skills {
+  display: inline-block;
+  width: 20%;
+
+}
+
 .description{
   margin: 0 auto;
   
@@ -407,7 +414,7 @@ position: relative;
   padding-left: 20%;
 }
 .about_me img{
-  width: 10%;
+  width: 30%;
 }
 
 .bio{
@@ -531,6 +538,19 @@ position: relative;
 
 }
 
+#title{
+  display: inline-block;
+  text-align: center;
+  padding-left: 0;
+  
+  font-size:60px;
+  color: #F26523;
+  font-weight:800;
+  line-height:70px;
+  margin-right: 0;
+  padding-top: 50px;
+
+}
 .contact_me h2{
 
   color: white;
