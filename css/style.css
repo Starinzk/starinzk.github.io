@@ -38,115 +38,6 @@ img{
   color: white;
 }
 
-::selection {
-		background: #000;
-		color: #fff;
-		text-shadow: none;
-	}
-	
-	::-moz-selection {
-		background: #000;
-		color: #fff;
-		text-shadow: none;
-	}
-
-p{
-  font-family: 'Raleway', sans-serif;
-  font-size:14px;
-  font-weight: 400;
-}
-
-a{
-  text-decoration:none;
-  -webkit-transition: all 0.2s ease-in;
-	-moz-transition: all 0.2s ease-in;
-	-ms-transition: all 0.2s ease-in;
-	-o-transition: all 0.2s ease-in;
-	transition: all 0.2s ease-in; 
-	border-bottom:1px solid #dedede;
-}
-
-a:focus {
-  outline:none;
-}
-
-strong{
-  font-weight:700;
-
-}
-
-/*
-**************************
-PRELOADER
-**************************
-*/
-
-.preloader{
-  position:fixed;
-  top:0;
-  width:100%;
-  height:100%;
-  background:white;
-  z-index:999;
-}
- 
-.preloader .item{
-  position:absolute;
-  width:50px;
-  height:50px;
-  left:50%;
-  top:50%;
-  margin-left:-25px;
-  margin-top:-25px;
-} 
-
-.spinner {
-  width: 40px;
-  height: 40px;
-  margin: 0px auto;
-  background-color: #333;
-  border-radius: 100%;  
-  -webkit-animation: scaleout 1.0s infinite ease-in-out;
-  animation: scaleout 1.0s infinite ease-in-out;
-}
-
-@-webkit-keyframes scaleout {
-  0% { -webkit-transform: scale(0.0) }
-  100% {
-    -webkit-transform: scale(1.0);
-    opacity: 0;
-  }
-}
-
-@keyframes scaleout {
-  0% { 
-    transform: scale(0.0);
-    -webkit-transform: scale(0.0);
-  } 100% {
-    transform: scale(1.0);
-    -webkit-transform: scale(1.0);
-    opacity: 0;
-  }
-}
-
-
-
-
-
-/*
-**************************
-NAVIGATION OPACITY
-**************************
-*/
-
-
-
-/*
-**************************
-HEADER
-**************************
-*/
-
 header.boxed{
   position:fixed;
   width:100%;
@@ -192,15 +83,19 @@ ul.social-icon a:hover{
 
 
 .menu{
-  background-color: #F26523;
+  
+  text-align: right;
+  padding-right: 50px;
 }
 
 
 .menu a{
   display: block;
-  color: white;
+  color: #F26523;
   border-bottom: none;
+  text-decoration: none;
 }
+
 .menu li{
   display: inline-block;
   padding-top: 20px;
@@ -411,7 +306,8 @@ position: relative;
   margin: 0 auto;
   
   text-align: left;
-  padding-left: 20%;
+  
+  width: 400px;
 }
 .about_me img{
   width: 30%;
@@ -515,8 +411,7 @@ position: relative;
   font-size: 20px;
 }
 .content .text-intro h1{
-  text-align: left;
-  padding-left: 20%;
+  
   font-size:60px;
   color: #F26523;
   font-weight:800;
@@ -527,7 +422,7 @@ position: relative;
 }
 .myname{
   padding-top: 50px;
-
+  font-size: 100px;
 }
 
 .contact_me{
